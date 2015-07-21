@@ -5,20 +5,22 @@ layout: default
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Kevin Claeys</title>
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<meta name="author" content="Kevin claeys" />
-		<link rel="shortcut icon" href="../favicon.ico">
+      <meta charset="UTF-8" />
+  		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<title>Kevin Claeys</title>
+  		<meta name="description" content="" />
+  		<meta name="keywords" content="" />
+  		<meta name="author" content="Kevin claeys" />
+  		<link rel="shortcut icon" href="../favicon.ico">
 
-        <!-- inject:css -->
-        <link rel="stylesheet" href="/content/css/main-ab9dfd87.css">
-        <!-- endinject -->
-        <!-- inject:js -->
-        <!-- endinject -->
+      {% include meta.html %}
+
+      <!-- inject:css -->
+      <link rel="stylesheet" href="/content/css/main-ab9dfd87.css">
+      <!-- endinject -->
+      <!-- inject:js -->
+      <!-- endinject -->
     </head>
     <body>
         <div class="container-fluid" id="app">
@@ -82,5 +84,7 @@ layout: default
               </div>
           </div>
         <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
+
+        {% include analytics.html %}
     </body>
 </html>
