@@ -18713,11 +18713,7 @@
 	            return _react2['default'].createElement(
 	                'div',
 	                { className: 'col-lg-12' },
-	                _react2['default'].createElement(
-	                    'div',
-	                    { className: 'logo' },
-	                    'KC'
-	                ),
+	                _react2['default'].createElement('div', { className: 'logo' }),
 	                _react2['default'].createElement(
 	                    'nav',
 	                    { className: _headerCss2['default'].nav },
